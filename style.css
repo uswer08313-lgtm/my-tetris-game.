@@ -1,0 +1,21 @@
+:root {
+    --bg-color: #121212;
+    --canvas-bg: #000000;
+    --border-color: #333333;
+}
+
+body {
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    touch-action: none; /* Prevents zooming/scrolling on mobile */
+}
+
+canvas {
+    border: 2px solid var(--border-color);
+    background: var(--canvas-bg);
+    display: block;
+}
